@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('pic.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #6eb557;
+        }
+
+        .header {
+            background-color: #51b159;
+            padding: 1rem;
+            color: rgba(255, 255, 255, 0.714);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #F7FAFC;
+            border-radius: 0.5rem;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-icon {
+            fill: #4A5568;
+            width: 24px;
+            height: 24px;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2D3748;
+        }
+
+        .card-content {
+            color: #4A5568;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header flex justify-between items-center">
+        <h4 class="text-center flex-grow text-3xl font-bold">GITAM UNIVERSITY</h4>
+        <div class="relative flex h-10 w-10 overflow-hidden rounded-full">
+            <img class="object-cover h-full w-full" alt="User avatar" src="male .png" />
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-8">
+        <div class="card">
+            <div class="card-icon">
+                <img src="layout.ico" alt="My dash board">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">My Dashboard</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-customer-32.png" alt="profile">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Profile</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="ATTENDENCE .png" alt="attandance">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Attandance</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-table-48.png" alt="Time Table">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Time Table</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-report-card-30.png" alt="online grade">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Online grade card</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div><div class="card">
+            <div class="card-icon">
+                <img src="EVENTS.png" alt="Events">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Events</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-notice-board-30.png" alt="notice board">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Notice Board</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="LIBRARY.png" alt="library">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Library</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="ACADEMIC TRACK.png" alt="Acadamic ">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Academic track</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-exam-30.png" alt="Exams">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Apply Examinations</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-bell-30.png" alt="fees">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Fees</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-new-30.png" alt="news and events">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">News & Events</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-courses-30 (1).png" alt="courses">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Courses</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-discipline-30.png" alt="Disciplinary">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Disciplinary info</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="icons8-scholarship-30 (1).png" alt="Scholarship">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Scholarship</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="HALL TICKET.png" alt="hall">
+            </div>
+            <!-- Wrap the h3 tag with an anchor tag -->
+            <a href="timetable.html">
+                <h3 class="card-title">Hall tickets</h3>
+            </a>
+            <p class="card-content">View your schedule</p>
+        </div>
+        
+        
+        
+        
